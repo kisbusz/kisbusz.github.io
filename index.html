@@ -24,7 +24,7 @@
             /*background-color: #013358AA;*/
             /*border-radius: 10px;*/
             color:white;
-            text-shadow:1px 1px 3px #00111e;
+            text-shadow:2px 2px 4px #001322;
             
             font-size: 120%;
             font-family: Arial,'Helvetica',sans-serif;
@@ -35,10 +35,29 @@
             font-size: 210%;
             margin:0;
             margin-bottom:1em;
+            line-height:1.1em;
         }
         p{
             margin:0;
             margin-bottom:0.6em
+        }
+        .profile-img{
+          height:160px;
+          border:6px white solid;
+          border-radius:1000px;
+          box-shadow: 0px 0px 10px #053860;
+          float:right;
+          margin-left:20px;
+          margin-top:-10px;
+          margin-bottom:20px;
+        }
+        @media screen and (max-width: 600px) {
+          .profile-img{
+            float:none;
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+          }
         }
     </style>
     <script src="script.js"></script>
@@ -47,7 +66,7 @@
     <header>
         
         <h1>Kisbusz bérlés sofőrrel</h1>
-        <img src="./kisbusz-sofor1.jpg" style="height:160px;border:6px white solid;border-radius:1000px;box-shadow: 0px 0px 6px #013358;float:right;margin-left:20px;margin-top:-10px">
+        <img src="./kisbusz-sofor1.jpg" class="profile-img">
         <p><strong>Személyszállítást vállalok <span style="color:rgb(246, 255, 79)">9 fős kisbusszal</span> belföldre külföldre, kedvező áron, jelentős szakmai tapasztalattal.</strong> </p>
         <p>Ideális baráti társaságok, családok nyaralásához, kiránduláshoz, esküvőkre, lakodalmakra, munkatársak utaztatásához. </p>
         <br/>
